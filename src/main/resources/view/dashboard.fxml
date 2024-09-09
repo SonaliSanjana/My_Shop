@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="702.0" prefWidth="518.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardControllerForm">
+   <children>
+      <ImageView fitHeight="702.0" fitWidth="605.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pexels-anniroenkae-4175070.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="530.0" layoutX="52.0" layoutY="132.0" opacity="0.39" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="426.0" />
+      <Label layoutX="91.0" layoutY="43.0" prefHeight="80.0" prefWidth="347.0" text="DASHBOARD" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="54.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="141.0" layoutY="265.0" onAction="#btnAddCustomerOnAction" prefHeight="62.0" prefWidth="260.0" style="-fx-background-color: black;" text="ADD CUSTOMER" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="141.0" layoutY="415.0" onAction="#btnViewCustomerOnAction" prefHeight="62.0" prefWidth="260.0" style="-fx-background-color: black;" text="VIEW CUSTOMER" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="80.0" fitWidth="74.0" layoutX="141.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/feather.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="74.0" layoutX="141.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/feather.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
